@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+body {
+    background: linear-gradient(316.77deg, rgba(240, 165, 238, 0) 60%, #eea6ee 85.57%, #eca6ec 95.57%, #f1abf1 95.57%);
+    opacity: 100%;
+
+}
+#container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+    padding-top: auto;
+    margin: 90px;
+    margin-top: auto;
+}
+.provide {
+    font-family: Spartan;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+.product {
+    font-family: Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.7142857313156128px;
+    text-align: left;
+    color: #512051;
+}
+.review {
+    border: 1px solid white;
+    background: #F7F2F7;
+    border-radius: 8px;
+    width: 445px;
+    height: 56px;
+    padding-left: 90px;
+    color: #512051;
+    text-align: left;
+}
+.report {
+    border: 1px solid white;
+    background: #F7F2F7;
+    border-radius: 8px;
+    width: 445px;
+    margin-left: 30px;
+    height: 56px;
+    padding-left: 90px;
+    color: #512051;
+}
+.tech {
+    border: 1px solid white;
+    background: #F7F2F7;
+    border-radius: 8px;
+    width: 445px;
+    height: 56px;
+    margin-left: 60px;
+    padding-left: 90px;
+}
+#all-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+#container-2 {
+    border: 1px white solid;
+    width: 350px;
+    height: 234px;
+    left: 141px;
+    top: 432px;
+    background: #512051;
+    border-radius: 8px;
+}
+.first {
+    display: flex;
+    
+}
+.image1 {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.smith {
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.buyer {
+    color: #EE69A4;
+    font-size: 14px;
+}
+.needed {
+    font-family: Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+#container-3 {
+    border: 1px white solid;
+    margin-top: 20px;
+    width: 350px;
+    height: 234px;
+    left: 141px;
+    top: 432px;
+    background: #512051;
+    border-radius: 8px;
+}
+.second {
+    display: flex;
+}
+#container-4 {
+    border: 1px white solid;
+    margin-top: 40px;
+    width: 350px;
+    height: 234px;
+    left: 141px;
+    top: 432px;
+    background: #512051;
+    border-radius: 8px;
+}
+.third {
+    display: flex;
+}
+.star {
+    color: #EF9546;
+}
+@media (max-width: 800px) {
+    #container-1 {
+        display: flex;
+        flex-flow: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column; 
+        width: 100%;
+        flex-shrink: 1px;
+    }
+    .product {
+        font-family: Spartan;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.1428571939468384px;
+        text-align: center;
+        width: 100%;
+    }
+    .provide {
+        text-align: center;
+    }
+    .review {
+        width: 220px;
+        margin-left: 110px;
+        color: #512051;
+
+    }
+    .report {
+        width: 220px;
+        margin-left: 110px;
+    }
+    .tech {
+        width: 220px;
+        margin-left: 110px;
+    }
+    #all-page {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        width: 100%;
+        margin-left: 80px;    
+    }
+}
